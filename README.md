@@ -1,1 +1,1 @@
-# Music-Theory-Ear-Training
+# Music Theory Ear-Training App
