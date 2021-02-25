@@ -4,7 +4,7 @@ body {
 
 #piano {
   /*For positioning the #piano div at the center of the screen,
-both vertically and horizotally */
+both vertically and horizotally*/
   position: absolute;
   margin: auto;
   top: 0;
