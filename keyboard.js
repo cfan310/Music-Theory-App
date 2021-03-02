@@ -12,11 +12,22 @@ const piano = document.querySelector("#piano");
 const data = ["C", "D", "E", "F", "G", "A", "B"];
 
 let html = "";
+// loop over first two octaves; CDEFGAB -> CDEFGAB
 for (let octave = 0; octave < 2; octave++)
   for (let i = 0; i < data.length; i++) {
-    let hasSharp = data[1] != "E" && data[i] != "0" ? true : false;
-    html += `<div class='whiteNote' data-code='${data[i]}4'></div>`;
-    html += `<div class='whiteNote' data-code='${data[i]}5'></div>`;
+    let hasSharp = data[i] != "E" && data[i] != "B" ? true : false;
+    html += `<div class='whiteNote' data-code='${data[i]}${octave + 4}'></div>`; // C4 D4 E4....
+   
+    }
   }
 
 piano.insertAdjacentHTML("beforeend", html);
+
+/*
+if (hasSharp) {
+      html += `<div class='whiteNote' data-code='${data[i]}#${
+        octave + 4
+      }'></div>`;
+      html += "</div>";
+    }
+*/
