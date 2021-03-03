@@ -1,2 +1,2 @@
 // Scale Generator Algorithm 
-// Utilizes Ableton Live
+// Utilizes Ableton Live no API
