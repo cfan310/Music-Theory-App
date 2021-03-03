@@ -3,7 +3,7 @@
 // Finally, insert these divs into the #piano div
 // Add effects for when you click
 // Add sound effects by loading audio files
-// Add buttons on the keys with a guitar icon
+// Add buttons on the keys with a guitar icon or append above/below the keys
 // Add guitar icon click functionality
 // Load guitar note sound giles that correspodnd to the piano keys
 // Add complexity; Code it so it tells you which scale you made when you hit 7 random notes
