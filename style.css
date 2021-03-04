@@ -29,5 +29,5 @@ both vertically and horizotally*/
   background-color: #777;
   height: 65%;
   width: 3.5vim;
-  transform: trandlateX(5.5vmin);
+  transform: translateX(5.5vmin);
 }
