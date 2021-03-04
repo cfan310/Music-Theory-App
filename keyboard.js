@@ -46,7 +46,7 @@ const keys = [
   '\\',
 ];
 
-const keys1 = ['Tab', '1', 'q', '2', 'w', 'e', '4', 'r', '5', 't', '6', 'y'];
+const keys1 = ['Tab', '1', 'q', '2', 'w', 'e', '4', 'r'];
 
 // If the key that gets pressed is in the keys array,
 // SHOW that now corresponding to that specific key that is pressed on the piano by
