@@ -18,7 +18,7 @@ piano.insertAdjacentHTML('beforeend', html);
 
 const notes = document.querySelectorAll('.whiteNote', '.blackNote');
 
-// specific keyboard keys
+// specific piano keys
 const keys = [
   'Tab',
   '1',
