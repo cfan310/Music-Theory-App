@@ -46,6 +46,8 @@ const keys = [
   '\\',
 ];
 
+// realign
+
 const keys1;
 
 // If the key that gets pressed is in the keys array,
